@@ -56,7 +56,7 @@
 <h1>Your shopping cart is empty</h1>
 {% endif %}
 <p>
-    <a href="{% url 'shop:product_list' %}">Continue shopping</a>
-    <a href="#">Checkout</a>
+    <a href="{% url 'shop:product_list' %}" class="btn btn-primary">Continue shopping</a>
+    <a href="{% url 'orders:order_create' %}" class="btn btn-success">Checkout</a>
 </p>
 {% endblock content %}
