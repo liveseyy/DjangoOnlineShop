@@ -22,3 +22,9 @@ a{
 	max-height: 400px;
 	max-width: 400px;
 }
+.field{
+	background-color: lightgray;
+	width: 30%;
+	height: 50px;
+	border-radius: 3%;
+}

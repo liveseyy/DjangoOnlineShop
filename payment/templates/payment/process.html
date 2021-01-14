@@ -19,7 +19,7 @@
 
       <input type="hidden" id="nonce" name="payment_method_nonce" value="">
 
-      <input type="submit" value="Pay">
+      <input class="mt-3 btn btn-success" type="submit" value="Pay">
   </form>
 
   <script src="https://js.braintreegateway.com/web/3.29.0/js/client.min.js"></script>
@@ -40,7 +40,7 @@
  styles: {
  'input': {'font-size': '13px'},
  'input.invalid': {'color': 'red'},
- 'input.valid': {'color': 'green'}
+ 'input.valid': {'color': 'green'},
  },
  fields: {
  number: {selector: '#card-number'},
