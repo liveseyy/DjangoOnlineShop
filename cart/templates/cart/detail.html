@@ -44,18 +44,44 @@
       </tr>
       {% endwith %}
     {% endfor %}
-    <tr class="table-primary">
+    {% if cart.coupon %}
+      <tr class="subtotal">
+        <td>Subtotal</td>
+        <td colspan="4"></td>
+        <td class="num">${{ cart.get_total_price|floatformat:"2" }}</td>
+      </tr>
+      <tr>
+        <td>
+          "{{ cart.coupon.code }}" coupon
+          ({{ cart.coupon.discount }}% off)
+        </td>
+        <td colspan="4"></td>
+        <td class="num neg">
+          - ${{ cart.get_discount|floatformat:"2" }}
+        </td>
+      </tr>
+    {% endif %}
+    <tr class="total">
       <td>Total:</td>
       <td colspan="4"></td>
-      <td>${{ cart.get_total_price }}</td>
+      <td class="num">
+        ${{ cart.get_total_price_after_discount|floatformat:"2" }}
+      </td>
     </tr>
   </tbody>
 </table>
 
+<p>Apply a coupon:</p>
+<form action="{% url 'coupons:apply' %}" method="post">
+  {% csrf_token %}
+  {{ coupon_apply_form }}
+  <input type="submit" class="btn btn-success" value="Apply">
+</form>
+
 {% else %}
 <h1>Your shopping cart is empty</h1>
 {% endif %}
-<p>
+<p class="mt-3">
     <a href="{% url 'shop:product_list' %}" class="btn btn-primary">Continue shopping</a>
     <a href="{% url 'orders:order_create' %}" class="btn btn-success">Checkout</a>
 </p>
