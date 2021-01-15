@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-15 20:47+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: cart/forms.py:8 cart/templates/cart/detail.html:17
+msgid "Quantity"
+msgstr ""
+
+#: cart/templates/cart/detail.html:6
+msgid "Cart"
+msgstr ""
+
+#: cart/templates/cart/detail.html:11
+msgid "Your shopping cart"
+msgstr ""
+
+#: cart/templates/cart/detail.html:15
+msgid "Image"
+msgstr ""
+
+#: cart/templates/cart/detail.html:16
+msgid "Product"
+msgstr ""
+
+#: cart/templates/cart/detail.html:18
+msgid "Remove"
+msgstr ""
+
+#: cart/templates/cart/detail.html:19
+msgid "Unit price"
+msgstr ""
+
+#: cart/templates/cart/detail.html:20
+msgid "Price"
+msgstr ""
+
+#: cart/templates/cart/detail.html:50
+msgid "Subtotal"
+msgstr ""
+
+#: cart/templates/cart/detail.html:56
+msgid "coupon"
+msgstr ""
+
+#: cart/templates/cart/detail.html:66
+msgid "Total"
+msgstr ""
+
+#: cart/templates/cart/detail.html:75
+msgid "Apply a coupon"
+msgstr ""
+
+#: cart/templates/cart/detail.html:83
+msgid "Your shopping cart is empty"
+msgstr ""
+
+#: cart/templates/cart/detail.html:86
+msgid "Continue shopping"
+msgstr ""
+
+#: cart/templates/cart/detail.html:87
+msgid "Checkout"
+msgstr ""

@@ -16,12 +16,14 @@ cssselect2==0.4.1
 defusedxml==0.6.0
 Django==3.1.5
 django-crispy-forms==1.10.0
+django-rosetta==0.9.5
 flower==0.9.7
 html5lib==1.1
 humanize==3.2.0
 idna==2.10
 kombu==4.6.11
 Pillow==8.1.0
+polib==1.1.0
 prometheus-client==0.8.0
 prompt-toolkit==3.0.10
 pycparser==2.20
