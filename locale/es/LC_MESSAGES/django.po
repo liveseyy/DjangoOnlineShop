@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-16 10:39+0500\n"
-"PO-Revision-Date: 2021-01-15 21:11+0500\n"
+"POT-Creation-Date: 2021-01-16 13:11+0500\n"
+"PO-Revision-Date: 2021-01-16 08:11+0000\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -16,14 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Translated-Using: django-rosetta 0.9.5\n"
 "X-Generator: Poedit 2.4.2\n"
+"X-Translated-Using: django-rosetta 0.9.5\n"
 
-#: myshop/settings.py:121
+#: myshop/settings.py:122
 msgid "English"
 msgstr "Inglés"
 
-#: myshop/settings.py:122
+#: myshop/settings.py:123
 msgid "Spanish"
 msgstr "Español"
 
@@ -64,10 +64,14 @@ msgid "My shop"
 msgstr "Mi tienda"
 
 #: shop/templates/shop/base.html:19
+msgid "Language"
+msgstr "Idioma"
+
+#: shop/templates/shop/base.html:36
 msgid "Your cart"
 msgstr "Tu carro"
 
-#: shop/templates/shop/base.html:21
+#: shop/templates/shop/base.html:38
 #, python-format
 msgid ""
 "\n"
@@ -79,7 +83,7 @@ msgstr ""
 "%(total_items)s producto%(total_items_plural)s\n"
 "$%(total_price)s"
 
-#: shop/templates/shop/base.html:27
+#: shop/templates/shop/base.html:44
 msgid "Your cart is empty."
 msgstr "Tu carrito está vacío."
 

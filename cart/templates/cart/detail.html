@@ -30,7 +30,7 @@
                 style="width: 200px; height: 200px;">
             </a>
         </td>
-        <td>{% transblock %}{{ product.name }}{% endblocktrans %}</td>
+        <td>{% blocktrans %}{{ product.name }}{% endblocktrans %}</td>
         <td>
           <form action="{% url 'cart:cart_add' product.id %}" method="post">
             {% csrf_token %}
