@@ -16,7 +16,6 @@ cssselect2==0.4.1
 defusedxml==0.6.0
 Django==3.1.5
 django-crispy-forms==1.10.0
-django-localflavor==3.0.1
 django-parler==2.2
 django-rosetta==0.9.5
 flower==0.9.7
@@ -30,7 +29,6 @@ prometheus-client==0.8.0
 prompt-toolkit==3.0.10
 pycparser==2.20
 Pyphen==0.10.0
-python-stdnum==1.15
 pytz==2020.5
 requests==2.25.1
 six==1.15.0

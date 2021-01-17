@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-17 14:20+0500\n"
-"PO-Revision-Date: 2021-01-17 09:08+0000\n"
+"POT-Creation-Date: 2021-01-16 13:11+0500\n"
+"PO-Revision-Date: 2021-01-16 08:11+0000\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -19,81 +19,45 @@ msgstr ""
 "X-Generator: Poedit 2.4.2\n"
 "X-Translated-Using: django-rosetta 0.9.5\n"
 
-#: myshop/settings.py:123
+#: myshop/settings.py:122
 msgid "English"
 msgstr "Inglés"
 
-#: myshop/settings.py:124
+#: myshop/settings.py:123
 msgid "Spanish"
 msgstr "Español"
 
 #: myshop/urls.py:24
 msgid "admin/"
-msgstr "admin/"
+msgstr ""
 
 #: myshop/urls.py:25
 msgid "cart/"
-msgstr "carro/"
+msgstr ""
 
 #: myshop/urls.py:26
 msgid "orders/"
-msgstr "pedidos/"
+msgstr ""
 
 #: myshop/urls.py:27
 msgid "payment/"
-msgstr "pago/"
+msgstr ""
 
 #: myshop/urls.py:28
 msgid "coupons/"
-msgstr "cupones/"
-
-#: payment/templates/payment/canceled.html:5
-msgid "Your payment has not been processed"
-msgstr "Tu pago no ha sido procesado"
-
-#: payment/templates/payment/canceled.html:6
-msgid "There was a problem processing your payment."
-msgstr "Hubo un problema al procesar su pago."
-
-#: payment/templates/payment/done.html:5
-msgid "Your payment was successful"
-msgstr "Tu pago fue exitoso"
-
-#: payment/templates/payment/done.html:6
-msgid "Your payment has been processed successfully."
-msgstr "Su pago se ha procesado correctamente."
-
-#: payment/templates/payment/process.html:9
-msgid "Pay by credit card"
-msgstr "Pagar con tarjeta de crédito"
-
-#: payment/templates/payment/process.html:12
-msgid "Card number"
-msgstr "Número de tarjeta"
-
-#: payment/templates/payment/process.html:15
-msgid "CVV"
-msgstr "CVV"
-
-#: payment/templates/payment/process.html:18
-msgid "Expiration Date"
-msgstr "Fecha de caducidad"
-
-#: payment/templates/payment/process.html:23
-msgid "Pay"
-msgstr "Pagar"
+msgstr ""
 
 #: payment/urls.py:8
 msgid "process/"
-msgstr "proceso/"
+msgstr ""
 
 #: payment/urls.py:9
 msgid "done/"
-msgstr "hecho/"
+msgstr ""
 
 #: payment/urls.py:10
 msgid "canceled/"
-msgstr "cancelada/"
+msgstr ""
 
 #: shop/templates/shop/base.html:7 shop/templates/shop/base.html:13
 msgid "My shop"

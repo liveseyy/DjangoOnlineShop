@@ -168,11 +168,10 @@ CART_SESSION_ID = 'cart'
 # EMAIL_PORT = 587
 # EMAIL_USE_TLS = True
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-BRAINTREE_MERCHANT_ID = 'dtm5bszgynzn67qf'
-BRAINTREE_PUBLIC_KEY = 'kftm563dzhygn3sg'
-BRAINTREE_PRIVATE_KEY = 'acc75e107f1bce69fb250ebabf100356'
+BRAINTREE_MERCHANT_ID = ''
+BRAINTREE_PUBLIC_KEY = ''
+BRAINTREE_PRIVATE_KEY = ''
 
 from braintree import Configuration, Environment
 

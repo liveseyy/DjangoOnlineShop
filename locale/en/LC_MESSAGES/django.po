@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-17 14:20+0500\n"
+"POT-Creation-Date: 2021-01-16 13:11+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: myshop/settings.py:123
+#: myshop/settings.py:122
 msgid "English"
 msgstr ""
 
-#: myshop/settings.py:124
+#: myshop/settings.py:123
 msgid "Spanish"
 msgstr ""
 
@@ -44,42 +44,6 @@ msgstr ""
 
 #: myshop/urls.py:28
 msgid "coupons/"
-msgstr ""
-
-#: payment/templates/payment/canceled.html:5
-msgid "Your payment has not been processed"
-msgstr ""
-
-#: payment/templates/payment/canceled.html:6
-msgid "There was a problem processing your payment."
-msgstr ""
-
-#: payment/templates/payment/done.html:5
-msgid "Your payment was successful"
-msgstr ""
-
-#: payment/templates/payment/done.html:6
-msgid "Your payment has been processed successfully."
-msgstr ""
-
-#: payment/templates/payment/process.html:9
-msgid "Pay by credit card"
-msgstr ""
-
-#: payment/templates/payment/process.html:12
-msgid "Card number"
-msgstr ""
-
-#: payment/templates/payment/process.html:15
-msgid "CVV"
-msgstr ""
-
-#: payment/templates/payment/process.html:18
-msgid "Expiration Date"
-msgstr ""
-
-#: payment/templates/payment/process.html:23
-msgid "Pay"
 msgstr ""
 
 #: payment/urls.py:8

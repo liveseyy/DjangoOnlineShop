@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-17 14:20+0500\n"
+"POT-Creation-Date: 2021-01-16 13:11+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,10 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: orders/forms.py:8
-msgid "Postal code"
-msgstr ""
 
 #: orders/models.py:10
 msgid "first name"
@@ -64,7 +60,6 @@ msgid ""
 msgstr ""
 
 #: orders/templates/orders/order/create.html:30
-#: orders/templates/orders/order/pdf.html:42
 msgid "Total"
 msgstr ""
 
@@ -79,62 +74,6 @@ msgstr ""
 
 #: orders/templates/orders/order/created.html:10
 msgid "Your order has been successfully completed. Your order number is"
-msgstr ""
-
-#: orders/templates/orders/order/pdf.html:4
-msgid "My shop"
-msgstr ""
-
-#: orders/templates/orders/order/pdf.html:6
-msgid "Invoice no. "
-msgstr ""
-
-#: orders/templates/orders/order/pdf.html:12
-msgid "Bill to"
-msgstr ""
-
-#: orders/templates/orders/order/pdf.html:14
-#, python-format
-msgid ""
-"\n"
-"          %(order.first_name)s %(order.last_name)s<br>\n"
-"          %(order.email)s<br>\n"
-"          %(order.address)s<br>\n"
-"          %(order.postal_code)s, %(order.city)s\n"
-"      "
-msgstr ""
-
-#: orders/templates/orders/order/pdf.html:22
-msgid "Items bought"
-msgstr ""
-
-#: orders/templates/orders/order/pdf.html:26
-msgid "Product"
-msgstr ""
-
-#: orders/templates/orders/order/pdf.html:27
-msgid "Price"
-msgstr ""
-
-#: orders/templates/orders/order/pdf.html:28
-msgid "Quantity"
-msgstr ""
-
-#: orders/templates/orders/order/pdf.html:29
-msgid "Cost"
-msgstr ""
-
-#: orders/templates/orders/order/pdf.html:35
-#, python-format
-msgid "%(item.product.name)s"
-msgstr ""
-
-#: orders/templates/orders/order/pdf.html:49
-msgid "Paid"
-msgstr ""
-
-#: orders/templates/orders/order/pdf.html:49
-msgid "Pending payment"
 msgstr ""
 
 #: orders/urls.py:8
