@@ -7,18 +7,27 @@
 {% endblock %}
 
 {% block content %}
-	<div class="product-detail">
-		<img src="{% if product.image %}{{ product.image.url }}{% else %}{% static 'img/no_image.png' %}{% endif %}" alt="">
-		<h1>{{ product.name }}</h1>
-		<h2>
-			<a href="{{ product.category.get_absolute_url }}">{{ product.category }}</a>
-		</h2>
-		<p class="price">${{ product.price }}</p>
-		<form action="{% url 'cart:cart_add' product.id %}" method="post">
+<div class="product-detail">
+	<div class="row">
+		<div class="col">
+			<h1>{{ product.name }}</h1>
+			<h4 style="padding-left: 10px;">
+				<a href="{{ product.category.get_absolute_url }}">{{ product.category }}</a>
+			</h4>
+		<img class="mt-3 mb-3" src="{% if product.image %}{{ product.image.url }}{% else %}{% static 'img/no_image.png' %}{% endif %}" alt="">
+
+		</div>
+		<div class="col">
+			<h1 class="price">${{ product.price }}</h1>
+		<form action="{% url 'cart:cart_add' product.id %}" class="mt-3" method="post">
 			{% csrf_token %}
 			{{ cart_product_form }}
-			<input type="submit" value="{% trans 'Add to cart' %}">
+			<br>
+			<input class="btn btn-primary mt-2" type="submit" value="{% trans 'Add to cart' %}">
 		</form>
-		{{ product.description|linebreaks }}
+
+		</div>
+	</div>
+	{{ product.description|linebreaks }}
 	</div>
 {% endblock %}

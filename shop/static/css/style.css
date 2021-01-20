@@ -1,9 +1,17 @@
 body{
-	padding: 15px;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .main {
 	display: flex;
+}
+.languages{
+    margin-right: 5em;
+}
+.languages a{
+    margin-right: 20px;
+}
+.cart a{
+    color: white;
 }
 .item {
 	text-align: center;
@@ -13,10 +21,25 @@ body{
 	height: 200px;
 }
 a{
-	text-decoration: none;
+    text-decoration: none;
+}
+.navbar a{
+	color: white;
+}
+.navbar a:hover{
+    color: lightgray;
+}
+.dropdown a{
+    color: #000;
+}
+.dropdown a:hover{
+    color: #000;
+}
+.selected a{
+	color: gray;
 }
 .selected{
-	color: gray;
+	color: black;
 }
 .product-detail img{
 	max-height: 400px;
@@ -27,4 +50,22 @@ a{
 	width: 30%;
 	height: 50px;
 	border-radius: 3%;
+	padding-left: 15px;
+	margin-bottom: 15px;
+}
+.textinput{
+    margin-bottom: 15px;
+}
+.card img{
+    max-width: 100%;
+}
+.card-title{
+    color: black;
+}
+.price{
+    color: green;
+    font-size: 62px;
+}
+td{
+    font-size: 35px;
 }

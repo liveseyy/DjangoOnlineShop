@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block content %}
-  <h1>Pay by credit card</h1>
+  <h1 class="mb-3">Pay by credit card</h1>
   <form action="." id="payment" method="post">
       {% csrf_token %}
       <label for="card-number">Card number</label>
@@ -38,7 +38,7 @@
  braintree.hostedFields.create({
  client: clientInstance,
  styles: {
- 'input': {'font-size': '13px'},
+ 'input': {'font-size': '18px'},
  'input.invalid': {'color': 'red'},
  'input.valid': {'color': 'green'},
  },

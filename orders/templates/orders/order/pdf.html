@@ -1,4 +1,5 @@
-<html>
+<!doctype html>
+<html lang="en">
 <body>
   <h1>My shop</h1>
   <p>
@@ -17,6 +18,9 @@
   </p>
 
   <h3>Items bought:</h3>
+
+
+
   <table>
       <thead>
       <tr>
@@ -41,6 +45,7 @@
       </tr>
       </tbody>
   </table>
+
   <br>
   <span class="{% if order.paid %}paid{% else %}pending{% endif %}">
       {% if order.paid %}Paid{% else %}Pending payment{% endif %}

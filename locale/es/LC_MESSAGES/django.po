@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-16 13:11+0500\n"
-"PO-Revision-Date: 2021-01-16 08:11+0000\n"
+"POT-Creation-Date: 2021-01-20 18:15+0500\n"
+"PO-Revision-Date: 2021-01-20 13:17+0000\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -19,11 +19,11 @@ msgstr ""
 "X-Generator: Poedit 2.4.2\n"
 "X-Translated-Using: django-rosetta 0.9.5\n"
 
-#: myshop/settings.py:122
+#: myshop/settings.py:124
 msgid "English"
 msgstr "Inglés"
 
-#: myshop/settings.py:123
+#: myshop/settings.py:125
 msgid "Spanish"
 msgstr "Español"
 
@@ -33,49 +33,68 @@ msgstr ""
 
 #: myshop/urls.py:25
 msgid "cart/"
-msgstr ""
+msgstr "carro/"
 
 #: myshop/urls.py:26
 msgid "orders/"
-msgstr ""
+msgstr "pedidos/"
 
 #: myshop/urls.py:27
 msgid "payment/"
-msgstr ""
+msgstr "pago/"
 
 #: myshop/urls.py:28
 msgid "coupons/"
-msgstr ""
+msgstr "cupones /"
+
+#: payment/templates/payment/canceled.html:5
+msgid "Your payment has not been processed"
+msgstr "Tu pago no ha sido procesado"
+
+#: payment/templates/payment/canceled.html:6
+msgid "There was a problem processing your payment."
+msgstr "Hubo un problema al procesar su pago."
+
+#: payment/templates/payment/done.html:5
+msgid "Your payment was successful"
+msgstr "Tu pago fue exitoso"
+
+#: payment/templates/payment/done.html:6
+msgid "Your payment has been processed successfully."
+msgstr "Su pago se ha procesado correctamente."
 
 #: payment/urls.py:8
 msgid "process/"
-msgstr ""
+msgstr "proceso/"
 
 #: payment/urls.py:9
 msgid "done/"
-msgstr ""
+msgstr "hecho/"
 
 #: payment/urls.py:10
 msgid "canceled/"
-msgstr ""
+msgstr "cancelado/"
 
-#: shop/templates/shop/base.html:7 shop/templates/shop/base.html:13
+#: shop/templates/shop/base.html:12 shop/templates/shop/base.html:25
+#: shop/templates/shop/base.html:84
 msgid "My shop"
 msgstr "Mi tienda"
 
-#: shop/templates/shop/base.html:19
-msgid "Language"
-msgstr "Idioma"
+#: shop/templates/shop/base.html:33
+msgid "Categories"
+msgstr "Categorías"
 
-#: shop/templates/shop/base.html:36
-msgid "Your cart"
-msgstr "Tu carro"
-
-#: shop/templates/shop/base.html:38
-#, python-format
+#: shop/templates/shop/base.html:61
+#, fuzzy, python-format
+#| msgid ""
+#| "\n"
+#| "\t\t\t\t\t\t\t%(total_items)s item%(total_items_plural)s\n"
+#| "\t\t\t\t\t\t\t$%(total_price)s\n"
+#| "\t\t\t\t\t\t"
 msgid ""
 "\n"
-"\t\t\t\t\t\t\t%(total_items)s item%(total_items_plural)s\n"
+"\t\t\t\t\t\t\t%(total_items)s\n"
+"                                    -\n"
 "\t\t\t\t\t\t\t$%(total_price)s\n"
 "\t\t\t\t\t\t"
 msgstr ""
@@ -83,14 +102,19 @@ msgstr ""
 "%(total_items)s producto%(total_items_plural)s\n"
 "$%(total_price)s"
 
-#: shop/templates/shop/base.html:44
-msgid "Your cart is empty."
-msgstr "Tu carrito está vacío."
-
-#: shop/templates/shop/product/detail.html:20
+#: shop/templates/shop/product/detail.html:26
 msgid "Add to cart"
 msgstr "Añadir al carrito"
 
-#: shop/templates/shop/product/list.html:11
-msgid "Categories"
-msgstr "Categorías"
+#: shop/templates/shop/product/list.html:10
+msgid "Products"
+msgstr "Productos"
+
+#~ msgid "Language"
+#~ msgstr "Idioma"
+
+#~ msgid "Your cart"
+#~ msgstr "Tu carro"
+
+#~ msgid "Your cart is empty."
+#~ msgstr "Tu carrito está vacío."

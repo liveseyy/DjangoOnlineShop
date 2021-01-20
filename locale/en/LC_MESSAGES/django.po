@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-16 13:11+0500\n"
+"POT-Creation-Date: 2021-01-20 18:15+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: myshop/settings.py:122
+#: myshop/settings.py:124
 msgid "English"
 msgstr ""
 
-#: myshop/settings.py:123
+#: myshop/settings.py:125
 msgid "Spanish"
 msgstr ""
 
@@ -46,6 +46,22 @@ msgstr ""
 msgid "coupons/"
 msgstr ""
 
+#: payment/templates/payment/canceled.html:5
+msgid "Your payment has not been processed"
+msgstr ""
+
+#: payment/templates/payment/canceled.html:6
+msgid "There was a problem processing your payment."
+msgstr ""
+
+#: payment/templates/payment/done.html:5
+msgid "Your payment was successful"
+msgstr ""
+
+#: payment/templates/payment/done.html:6
+msgid "Your payment has been processed successfully."
+msgstr ""
+
 #: payment/urls.py:8
 msgid "process/"
 msgstr ""
@@ -58,35 +74,29 @@ msgstr ""
 msgid "canceled/"
 msgstr ""
 
-#: shop/templates/shop/base.html:7 shop/templates/shop/base.html:13
+#: shop/templates/shop/base.html:12 shop/templates/shop/base.html:25
+#: shop/templates/shop/base.html:84
 msgid "My shop"
 msgstr ""
 
-#: shop/templates/shop/base.html:19
-msgid "Language"
+#: shop/templates/shop/base.html:33
+msgid "Categories"
 msgstr ""
 
-#: shop/templates/shop/base.html:36
-msgid "Your cart"
-msgstr ""
-
-#: shop/templates/shop/base.html:38
+#: shop/templates/shop/base.html:61
 #, python-format
 msgid ""
 "\n"
-"\t\t\t\t\t\t\t%(total_items)s item%(total_items_plural)s\n"
+"\t\t\t\t\t\t\t%(total_items)s\n"
+"                                    -\n"
 "\t\t\t\t\t\t\t$%(total_price)s\n"
 "\t\t\t\t\t\t"
 msgstr ""
 
-#: shop/templates/shop/base.html:44
-msgid "Your cart is empty."
-msgstr ""
-
-#: shop/templates/shop/product/detail.html:20
+#: shop/templates/shop/product/detail.html:26
 msgid "Add to cart"
 msgstr ""
 
-#: shop/templates/shop/product/list.html:11
-msgid "Categories"
+#: shop/templates/shop/product/list.html:10
+msgid "Products"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-16 13:11+0500\n"
+"POT-Creation-Date: 2021-01-20 18:15+0500\n"
 "PO-Revision-Date: 2021-01-15 20:54+0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -50,30 +50,36 @@ msgstr "Unit Precio"
 msgid "Price"
 msgstr "Precio"
 
-#: cart/templates/cart/detail.html:50
+#: cart/templates/cart/detail.html:35
+#, fuzzy, python-format
+#| msgid "Product"
+msgid "%(product)s"
+msgstr "Producto"
+
+#: cart/templates/cart/detail.html:54
 msgid "Subtotal"
 msgstr "Subtotal"
 
-#: cart/templates/cart/detail.html:56
+#: cart/templates/cart/detail.html:60
 msgid "coupon"
 msgstr "cupón"
 
-#: cart/templates/cart/detail.html:66
+#: cart/templates/cart/detail.html:70
 msgid "Total"
 msgstr "Total"
 
-#: cart/templates/cart/detail.html:75
+#: cart/templates/cart/detail.html:79
 msgid "Apply a coupon"
 msgstr "Aplicar un cupón"
 
-#: cart/templates/cart/detail.html:83
+#: cart/templates/cart/detail.html:87
 msgid "Your shopping cart is empty"
 msgstr "Tu carrito está vacío"
 
-#: cart/templates/cart/detail.html:86
+#: cart/templates/cart/detail.html:90
 msgid "Continue shopping"
 msgstr "Seguir comprando"
 
-#: cart/templates/cart/detail.html:87
+#: cart/templates/cart/detail.html:91
 msgid "Checkout"
 msgstr "Pagar"
